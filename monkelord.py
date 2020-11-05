@@ -3,7 +3,7 @@ import discord
 import monkeymanager
 import ver1
 import random
-
+token = None
 
 client = discord.Client()
 bothelp = open('bin/monkehelp.txt','r+').read()
@@ -178,5 +178,5 @@ async def on_message(message):
                 
             
 #run-client
-client.run("NzUxNDY4MTg4OTE0NDE3NzU2.X1JhSQ.Y_xBdGA76b-opGnrYuMulquwTIw")
+client.run(token)
 
